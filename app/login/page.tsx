@@ -15,7 +15,7 @@ export default function LoginPage() {
             <AcmeLogo />
           </div>
         </div>
-        <LoginForm />
+        <LoginForm redirectTo={redirectTo}/>
       </div>
     </main>
   );
